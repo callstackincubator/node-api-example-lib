@@ -1,0 +1,22 @@
+{
+  "name": "node-api-example-lib",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build:rn": "cmake-rn",
+    "build:node": "cmake-js",
+    "prepublishOnly": "npm run build:node && cmake-rn --android --apple"
+  },
+  "devDependencies": {
+    "bindings": "^1.5.0",
+    "cmake-js": "^7.3.1",
+    "cmake-rn": "^0.2.0",
+    "node-addon-api": "^8.4.0",
+    "jest": "^30.0.3"
+  },
+  "binary": {
+    "napi_versions": [
+      3
+    ]
+  }
+}
