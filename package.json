@@ -1,6 +1,7 @@
 {
   "name": "node-api-example-lib",
   "private": true,
+  "main": "index.js",
   "version": "0.1.0",
   "scripts": {
     "build:rn": "cmake-rn",
