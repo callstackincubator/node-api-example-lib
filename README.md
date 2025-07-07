@@ -2,6 +2,14 @@
 
 This repo features a Node-API addon prebuilt for Node.js and React Native.
 
+## How to run the app
+
+1. Install dependencies: `npm install` (in the root)
+2. Run the tests (using Jest via Node.js): `npm test` (in the root)
+3. Build the addon for React Native for the Android emulator and iOS simulator: `npm run build:rn` (in the root)
+4. Install the example app dependencies: `npm install` (in `./example-app`)
+5. Run the test app: `npm run ios` or `npm run android` (in `./example-app`)
+
 https://github.com/user-attachments/assets/3aa262ea-ce05-496b-8e5e-f46877ec7395
 
 ## What's included?
