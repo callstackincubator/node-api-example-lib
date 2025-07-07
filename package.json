@@ -3,6 +3,11 @@
   "private": true,
   "main": "index.js",
   "version": "0.1.0",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "build/Release"
+  ],
   "scripts": {
     "build:rn": "cmake-rn",
     "build:node": "cmake-js",
