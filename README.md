@@ -4,19 +4,34 @@ This repo features a Node-API addon prebuilt for Node.js and React Native.
 
 ## How to run the app
 
-1. Install dependencies: `npm install` (in the root)
-2. Run the tests (using Jest via Node.js): `npm test` (in the root)
-3. Build the addon for React Native for the Android emulator and iOS simulator: `npm run build:rn` (in the root)
-4. Install the example app dependencies: `npm install` (in `./example-app`)
-5. Run the iOS example app: `npm run ios` (in `./example-app`)
-6. Run the Android example app: `npm run android` (in `./example-app`) \*\*\*
-
-> [!NOTE]
-> \*\*\* An additional step is needed when running the example app on Android - you need to manually set the `REACT_NATIVE_OVERRIDE_HERMES_DIR` environment variable, before where you're running the `npm run android` command:
->
-> ```
-> export REACT_NATIVE_OVERRIDE_HERMES_DIR=`npx react-native-node-api vendor-hermes --silent`
-> ```
+1. Install dependencies (in the root)
+```
+npm install
+```
+2. Run the tests (using Jest via Node.js) (in the root)
+```
+npm test
+```
+3. Build the addon for React Native for the Android emulator and iOS simulator (in the root)
+```
+npm run build:rn
+```
+4. Install the example app dependencies (in `./example-app`)
+```
+npm install
+```
+5. Run the iOS example app (in `./example-app`)
+```
+npm run ios
+```
+6. Manually set the `REACT_NATIVE_OVERRIDE_HERMES_DIR` environment variable (in `./example-app` - required only for the Android app to build)
+```
+export REACT_NATIVE_OVERRIDE_HERMES_DIR=`npx react-native-node-api vendor-hermes --silent`
+```
+7. Run the Android example app (in `./example-app`)
+```
+npm run android
+```
 
 https://github.com/user-attachments/assets/3aa262ea-ce05-496b-8e5e-f46877ec7395
 
