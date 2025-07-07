@@ -10,6 +10,7 @@
   "dependencies": {
     "expo": "~53.0.17",
     "expo-status-bar": "~2.2.3",
+    "node-api-example-lib": "..",
     "react": "19.0.0",
     "react-native": "0.79.2",
     "react-native-node-api": "^0.2.0"
