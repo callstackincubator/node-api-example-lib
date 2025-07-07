@@ -11,9 +11,12 @@
   "scripts": {
     "build:rn": "cmake-rn",
     "build:node": "cmake-js",
-    "prepublishOnly": "npm run build:node && cmake-rn --android --apple"
+    "prepublishOnly": "npm run build:node && cmake-rn --android --apple",
+    "pretest": "npm run build:node",
+    "test": "jest"
   },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "bindings": "^1.5.0",
     "cmake-js": "^7.3.1",
     "cmake-rn": "^0.2.0",
@@ -23,6 +26,11 @@
   "binary": {
     "napi_versions": [
       3
+    ]
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "example-app"
     ]
   }
 }
