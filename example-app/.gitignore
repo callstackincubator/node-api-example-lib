@@ -20,6 +20,7 @@ expo-env.d.ts
 
 # Continuous native generation
 ios/
+android/
 
 # Metro
 .metro-health-check*
