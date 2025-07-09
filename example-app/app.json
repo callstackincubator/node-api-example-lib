@@ -22,7 +22,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.callstack.node-api-example-app"
+      "package": "com.callstack.node_api_example_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
