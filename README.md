@@ -1,6 +1,6 @@
 # Example: Node-API addon for Node.js and React Native
 
-This repo features a Node-API addon prebuilt for Node.js and React Native.
+This repo features a Node-API addon prebuilt for Node.js and React Native, built and loaded using the `cmake-rn` and `react-native-node-api` packages from the [`react-native-node-api`](https://github.com/callstackincubator/react-native-node-api) repository.
 
 ## How to run the app
 
