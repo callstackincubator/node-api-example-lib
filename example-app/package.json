@@ -13,7 +13,7 @@
     "node-api-example-lib": "..",
     "react": "19.0.0",
     "react-native": "0.79.2",
-    "react-native-node-api": "^0.2.0"
+    "react-native-node-api": "^0.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
