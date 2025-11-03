@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "expo": "~54.0.21",
+    "expo-build-properties": "~1.0.9",
     "expo-status-bar": "~3.0.8",
     "node-api-example-lib": "..",
     "react": "19.1.0",
