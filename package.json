@@ -9,7 +9,7 @@
     "build/Release"
   ],
   "scripts": {
-    "build:rn": "cmake-rn",
+    "build:rn": "cmake-rn --cmake-js",
     "build:node": "cmake-js",
     "prepublishOnly": "npm run build:node && cmake-rn --android --apple",
     "pretest": "npm run build:node",
