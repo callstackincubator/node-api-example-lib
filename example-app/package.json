@@ -14,7 +14,8 @@
     "node-api-example-lib": "..",
     "react": "19.1.0",
     "react-native": "0.81.4",
-    "react-native-node-api": "^0.6.2"
+    "react-native-node-api": "^0.7.1",
+    "weak-node-api": "0.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
