@@ -90,6 +90,7 @@ https://github.com/user-attachments/assets/3aa262ea-ce05-496b-8e5e-f46877ec7395
   - `index.d.ts` hand-crafted TypeScript declarations matching the addon implementation.
   - `index.test.ts` a test exercising the native addon using Jest via Node.js.
 - `./example-app` Expo example app
+  - `app.json` enables the `buildReactNativeFromSource` property to ensure React Native is built from source.
   - `App.tsx` does the actual import of `node-api-example-lib` and providing a calculator UI.
   - `package.json` declaring dependencies on
     - `node-api-example-lib`: the example library in the root of the repository

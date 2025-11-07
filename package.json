@@ -9,9 +9,9 @@
     "build/Release"
   ],
   "scripts": {
-    "build:rn": "cmake-rn",
+    "build:rn": "cmake-rn --cmake-js",
     "build:node": "cmake-js",
-    "prepublishOnly": "npm run build:node && cmake-rn --android --apple",
+    "prepublishOnly": "npm run build:node && cmake-rn --cmake-js --android --apple",
     "pretest": "npm run build:node",
     "test": "jest"
   },
@@ -19,9 +19,9 @@
     "@types/jest": "^30.0.0",
     "bindings": "^1.5.0",
     "cmake-js": "^7.3.1",
-    "cmake-rn": "^0.2.2",
-    "node-addon-api": "^8.4.0",
-    "jest": "^30.0.3"
+    "cmake-rn": "^0.6.1",
+    "node-addon-api": "^8.5.0",
+    "jest": "^30.2.0"
   },
   "binary": {
     "napi_versions": [

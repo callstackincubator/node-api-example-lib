@@ -8,17 +8,20 @@
     "ios": "expo run:ios"
   },
   "dependencies": {
-    "expo": "~53.0.17",
-    "expo-status-bar": "~2.2.3",
+    "expo": "~54.0.21",
+    "expo-build-properties": "~1.0.9",
+    "expo-status-bar": "~3.0.8",
     "node-api-example-lib": "..",
-    "react": "19.0.0",
-    "react-native": "0.79.5",
-    "react-native-node-api": "^0.3.1"
+    "react": "19.1.0",
+    "react-native": "0.81.4",
+    "react-native-node-api": "^0.7.1",
+    "weak-node-api": "0.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
-    "@types/react": "~19.0.10",
-    "typescript": "~5.8.3"
+    "@types/react": "~19.1.9",
+    "babel-preset-expo": "~54.0.6",
+    "typescript": "~5.9.3"
   },
   "private": true
 }
